@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "a4951a519253deb3",
+        "id": "2d1137885ed48da4",
         "type": "tabs",
         "children": [
           {
-            "id": "23e81de66f961815",
+            "id": "2f1897b70785508d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "note/calculus/complicated_integrals.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -61,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -82,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "note/calculus/complicated_integrals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "note/calculus/complicated_integrals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "note/calculus/complicated_integrals.md"
+              }
             }
           }
         ]
@@ -139,12 +146,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "23e81de66f961815",
+  "active": "2f1897b70785508d",
   "lastOpenFiles": [
-    "note/calculus/First Order Linear Differential.md",
+    "note/calculus/complicated_integrals.md",
+    "note/calculus/first_order_linear_differential.md",
+    "note/calculus/limit.md",
+    "note/calculus/limit~.md",
+    "Untitled.md",
     "note/linear_algebra",
     "note/prob&stats",
-    "note/calculus/limit.md",
     "note/geometry/trigonometric.md",
     "img/trig-right-triangle.png"
   ]

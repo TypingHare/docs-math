@@ -113,7 +113,7 @@ $$
 \begin{split}
 
 \frac{d}{dx} \log_{a}{x}
-&= \lim_{m \rightarrow 0}{\frac{\log_{a}{(1+m)}}{m}} \\
+&= \lim_{m \rightarrow 0}{\frac{\log_{a}{(1+m)}}{mx}} \\
 &= \lim_{m \rightarrow 0}{\frac{\frac{\ln{(1+m)}}{\ln{a}}}{mx}} \\
 &= \frac{1}{x \ln{a}} \cdot \lim_{m \rightarrow 0}{\frac{\ln{(1+m)}}{m}} \\
 
