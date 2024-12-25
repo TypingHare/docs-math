@@ -368,13 +368,13 @@ f(x,y)=g(x)h(y)
 $$
 for all $(x,y)$​ within their range.
 
-Definition 3.13  Let $X_1, X_2, \cdots, X_n$ be $n$ random variables, discrete or continuous, with the joint probability distribution $f(x_1, x_2, \cdots, x_n)$ and marginal distribution $f_1(x_1), f_2(x_2), \cdots, f_n(x_n)$, respectively. The random variables $X_1, X_2, \cdots, X_n$ are said to be **mutually statistically independent** if and only if
+**Definition 2.13**  Let $X_1, X_2, \cdots, X_n$ be $n$ random variables, discrete or continuous, with the joint probability distribution $f(x_1, x_2, \cdots, x_n)$ and marginal distribution $f_1(x_1), f_2(x_2), \cdots, f_n(x_n)$, respectively. The random variables $X_1, X_2, \cdots, X_n$ are said to be **mutually statistically independent** if and only if
 $$
 f(x_1, x_2, \cdots, x_n) = f_1(x_1)f_1(x_n) \cdots f_n(x_n)
 $$
 for all $(x_1, x_2, \cdots, x_n)$ within their range.
 
-## 3 Mathematical Exception
+## 3 Mathematical Expectation
 
 **Definition 3.1**  Let $X$ be a random variable with probability distribution $f(x)$. The **mean**, or **expected value**, of $X$ is
 $$
@@ -408,7 +408,7 @@ $$
 $$
 if $X$​ is continuous.
 
-> Let $X$ be a random variable with density function
+> Let $X$ be a random variable with de	nsity function
 > $$
 > f(x)=
 > \begin{cases}

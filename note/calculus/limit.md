@@ -51,7 +51,7 @@ $$
 \begin{split}
 
 \lim_{t \rightarrow 0}{\frac{t}{\log_{a}{(1+t)}}}
-&= \lim_{t \rightarrow 0}{\frac{\log_{a}{a}}{\log_{a}{(1+t)}}} \\
+&= \lim_{t \rightarrow 0}{\frac{\log_{a}{a^t}}{\log_{a}{(1+t)}}} \\
 &= \lim_{t \rightarrow 0}{\log_{1+t}{a^t}} \\
 &= \lim_{t \rightarrow 0}{t\log_{1+t}{a}} \\
 &= \lim_{t \rightarrow 0}{\frac{t\ln{a}}{\ln{(1+t)}}} \\

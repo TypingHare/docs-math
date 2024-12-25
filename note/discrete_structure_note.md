@@ -273,7 +273,7 @@ All theorems in mathematics can be expressed in form "If P then C" ($P \Rightarr
 > $$
 > \frac{a^2}{b^2} = 2 \quad \implies \quad a^2 = 2b^2
 > $$
-> Now, $a^2$ is an even number, and $a$ must also be even because the number of an odd number is odd. Let $a = 2k$ where $k$ is another integer. Substituting $a = 2k$ into the equation $a^2 = 2b^2$, we have:
+> Now, $a^2$ is an even number, and $a$ must also be even because the square of an odd number is odd. Let $a = 2k$ where $k$ is another integer. Substituting $a = 2k$ into the equation $a^2 = 2b^2$, we have:
 > $$
 > b^2 = 2a^2
 > $$
@@ -380,7 +380,7 @@ Two sets are said to have the same cardinality if there exists a bijection betwe
 
 **The Pigeonhole Principle**   Let $X$ and $Y$ be finite sets, and $f: X \to Y$. If $n \ge 1$ and $|X| \gt n|Y|$, then there exists an element of $Y$ that is the image under $f$ of at least $n+1$ elements of $X$​.
 
-### s7.3 Function Composition
+### 7.3 Function Composition
 
 Let $f, g: A \to B$, then $f = g$ if and only if $f(x) = g(x)$ for all $x \in A$. Let $f: A \to B$ and $g: B \to C$. Then the **composition** of $f$ followed by $g$, written $g \circ f$ is a function from $A$ into $C$ defined by $(g \circ f)(x) = g(f(x))$, which is read "$g$ of $f$ of $x$". Function composition is associative: If $f: A \to B$, $g: B \to C$, and $h: C \to D$, then $h \circ (g \circ f) = (h \circ g) \circ f$​.
 
@@ -389,5 +389,3 @@ Let $f: A \to A$, $f^1 = f$, and for $n \ge 1$, $f^{n+1} = f \circ f^n$. That is
 The composition of injections is an injection. The composition of surjections is a surjection. For a set $A$, the **identify function** on $A$ is a function from $A$ onto $A$, denoted by $i$ or $i_A$, such that $i(a) = a$ for all $a \in A$. Note that $f \circ i = i \circ f$.
 
 Let $f: A \to A$. If there exists a function $g: A \to A$ such that $g \circ f = f \circ g = i$, then $g$ is called the **inversion** of $f$ and is denoted $f^{-1}$. $f^{-1}$ exists if and only if $f$ is a bijection. A bijection of a set $A$ into itself is called a permutation of $A$.
-
-## 8 Recursion and Recurrence Relations
